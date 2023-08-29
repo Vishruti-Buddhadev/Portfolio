@@ -7,162 +7,210 @@ body{
     /* color: white; */
     font-family: 'Poppins',sans-serif;
 }
-.purple{
-    color:#39ad8a;
-}
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 50px;
-    background-color: #31d3a3;
-    margin-top: -80px;
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-}
-.left{
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: white;
-}
-nav ul{
-    display: flex;
-    justify-content: center;
 
-}
-nav ul li{
-    list-style: none;
-    margin:0 25px;
-    
-}
-nav ul li a{
-    text-decoration: none;
-    color: white;
-}
-nav ul li a:hover{
-    text-decoration: none;
-    color: #045f43;
-    font-size: 1.06rem;
-}
-.firstSection{
+
+.custom_nav{
     display: flex;
+    background-color: #31d3a3;
     justify-content: space-around;
     align-items: center;
-    margin: 80px 0;
+    width: 100%;
+    position: fixed;
+    margin:auto;
+    z-index: 1;
+    font-weight: bold;
 }
-.firstSection>div{
-    width:30%;
+.navbar-nav .nav-link {
+    color:white;
 }
-.leftSection{
+.navbar-nav .nav-item.active .nav-link{
+    color: white;
+  }
+ .navbar-brand {
+    color: white;
+  }
+.navbar-nav .nav-link:hover {
+    color:black;
     
+}
+.navbar-nav .nav-item.active .nav-link:hover {
+    color: black;
+  }
+ .navbar-brand:hover {
+    color: black;
+  }
+#first{
+    margin:30px auto;
+    padding: 30px;
+    
+}
+#first .first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:50px;
+   
+}
+#first .first .left{
+    margin-right: 20px;
+}
+#first .first .left h2{
+    /* width: 50%; */
     font-size: 2rem;
 }
-.rightSection img{
-    width:80%;
-    border-radius: 50%;
-}
-#secondSection{
-    height: 70vh;
-    max-width: 80vw;
-    margin:auto;
-}
-main hr{
-    margin:9px 33px;
-    height: 1.2px;
-}
-#secondSection h1{
-    font-size:1.9rem;
-    padding:50px ;
-}
-#secondSection .box{
-    background: gray;
-    width: 72vw;
-    height: 2px;
-    margin: 46px;
-    display: flex;
-}
-#secondSection .vertical{
-    height:90px;
-    width:1px;
-    background-color: gray;
-    margin:0 157px;
-}
-#secondSection .vertical .vertical-text{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 92px -47px;
-    width: 100px;
-}
-#secondSection .vertical .vertical_desc{
-    position: relative;
-    width: 260px;
-    margin: -94px;
-    padding: 10px;
-}
-#thirdSection{
-    height: 80vh;
-    max-width: 80vw;
-    margin:auto;
-}
-#thirdSection h1{
-    font-size:1.9rem;
-    padding-top:50px ;
-}
-#thirdSection .box{
-    background: gray;
-    width: 72vw;
-    height: 2px;
-    margin: 46px;
-    display: flex;
-}
-#thirdSection .vertical{
-    height:80px;
-    width:1px;
-    background-color: gray;
-    margin:0 236px;
-}
-#thirdSection .vertical .vertical-text{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 92px -225px;;
-    width: 500px;
-}
-#thirdSection .vertical .vertical_desc{
-    position: relative;
-    width: 451px;
-    margin: -125px 0px -2px -246px;
-    padding: 50px 32px;
-    font-size: 0.9rem;
+#first .first .left p{
+    font-size: 1.2rem;
 }
 
-#fourthSection{
-    height: 30vh;
-    max-width: 80vw;
-    margin:auto;
-    display: flex;
-    justify-content: space-around;
+#first .first .right img{
+    padding-top: 20px;
+    height: 500px;
+    width: 400px;
+    border-radius: 50%;
 }
-#fifthSection{
-    height: 30vh;
-    max-width: 80vw;
-    margin:auto;
+
+#second h1,#third h1,#fourth h1,#fifth h1,#contact h1{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.footer{
-    height:20vh;
-    max-width: 80vw;
-    margin: auto;
     
 }
-.footer h1{
-    font-size:1.4rem;
+#second .education h4{
+    font-family: cursive;
+    color: #0988a8;
+    text-decoration: underline;
 }
-.icons{
+#second .education{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    font-size:0.5rem;
+    flex-wrap: wrap;
 }
+
+#second .education > div {
+    margin: 5px; 
+  } 
+
+  #second .education h4,h5,h6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #third .projects{
+     width:100vw; 
+      /* margin-left: 10px auto;  */
+     
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+  }
+
+  #third .projects .card .card-text{
+    height: 70vh;
+  }
+  #third .projects .card .card-header{
+    font-weight: bold;
+    font-size:1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    color: #0988a8;
+  }
+ 
+#fourth .skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#fourth .skills .left ul{
+    list-style: none;
+    font-size: 1.5rem;
+}
+#fourth .skills .right ul{
+    font-size: 1.3rem;
+}
+#fourth .skills .left h3,#fourth .skills .right h3{
+    text-decoration: underline;
+    font-family: cursive;
+    color:#0988a8;
+}
+#fifth .about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+#contact .contactme{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    #first .first{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #first .first .right img{
+        height: 300px;
+        width: 300px;
+    }
+    #second .education{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        font-size:0.5rem;
+    }
+    #second .education .btech h4 h5{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    .education > div {
+        width: 100%; /* Take up full width on smaller screens */
+      }
+      #third .projects{
+        padding-left: 50;
+      }
+      #third .projects .card .card-text{
+        
+        height: 80vh;
+      }
+      #fourth .skills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      #fourth .skills .right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left:50px;
+      }
+      #fifth .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left:50px;
+      }
+      #contact .contactme{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+  }
+  
