@@ -1,216 +1,224 @@
-*{
-    margin:0px;
-    padding:0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-body{
-    background-color: rgba(128, 128, 128, 0.221);
-    /* color: white; */
-    font-family: 'Poppins',sans-serif;
+body {
+  background-color: rgba(128, 128, 128, 0.221);
+  /* color: white; */
+  font-family: "Poppins", sans-serif;
 }
 
-
-.custom_nav{
-    display: flex;
-    background-color: #31d3a3;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    position: fixed;
-    margin:auto;
-    z-index: 1;
-    font-weight: bold;
+.custom_nav {
+  display: flex;
+  background-color: #31d3a3;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  margin: auto;
+  z-index: 1;
+  font-weight: bold;
 }
 .navbar-nav .nav-link {
-    color:white;
+  color: white;
 }
-.navbar-nav .nav-item.active .nav-link{
-    color: white;
-  }
- .navbar-brand {
-    color: white;
-  }
+.navbar-nav .nav-item.active .nav-link {
+  color: white;
+}
+.navbar-brand {
+  color: white;
+}
 .navbar-nav .nav-link:hover {
-    color:black;
-    
+  color: black;
 }
 .navbar-nav .nav-item.active .nav-link:hover {
-    color: black;
-  }
- .navbar-brand:hover {
-    color: black;
-  }
-#first{
-    margin:30px auto;
-    padding: 30px;
-    
+  color: black;
 }
-#first .first{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left:50px;
-   
+.navbar-brand:hover {
+  color: black;
 }
-#first .first .left{
-    margin-right: 20px;
+#first {
+  margin: 30px auto;
+  padding: 30px;
 }
-#first .first .left h2{
-    /* width: 50%; */
-    font-size: 2rem;
+#first .first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
 }
-#first .first .left p{
-    font-size: 1.2rem;
+#first .first .left {
+  margin-right: 20px;
+}
+#first .first .left h2 {
+  /* width: 50%; */
+  font-size: 2rem;
+}
+#first .first .left p {
+  font-size: 1.2rem;
 }
 
-#first .first .right img{
-    padding-top: 20px;
-    height: 500px;
-    width: 400px;
-    border-radius: 50%;
+#first .first .right img {
+  padding-top: 20px;
+  height: 500px;
+  width: 400px;
+  border-radius: 50%;
 }
 
-#second h1,#third h1,#fourth h1,#fifth h1,#contact h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+#second h1,
+#third h1,
+#fourth h1,
+#fifth h1,
+#contact h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#second .education h4{
-    font-family: cursive;
-    color: #0988a8;
-    text-decoration: underline;
+#second .education h4 {
+  font-family: cursive;
+  color: #0988a8;
+  text-decoration: underline;
 }
-#second .education{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size:0.5rem;
-    flex-wrap: wrap;
+#second .education {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.5rem;
+  flex-wrap: wrap;
 }
-
+#second,
+#third,
+#fourth,
+#fifth,
+#contact {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
 #second .education > div {
-    margin: 5px; 
-  } 
+  margin: 5px;
+}
 
-  #second .education h4,h5,h6{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+#second .education h4,
+h5,
+h6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  #third .projects{
-     width:100vw; 
-      /* margin-left: 10px auto;  */
-     
-    display: flex;
-    align-items: center;
-    justify-content:center; 
-  }
+#third .projects {
+  width: 100vw;
+  /* margin-left: 10px auto;  */
 
-  #third .projects .card .card-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* #third .projects .card .card-text{
     height: 70vh;
-  }
-  #third .projects .card .card-header{
-    font-weight: bold;
-    font-size:1.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: cursive;
-    color: #0988a8;
-  }
+  } */
+#third .projects .card .card-header {
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: cursive;
+  color: #0988a8;
+}
+#third .projects .card img{
+  height: 250px;
  
-#fourth .skills{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-#fourth .skills .left ul{
-    list-style: none;
-    font-size: 1.5rem;
-}
-#fourth .skills .right ul{
-    font-size: 1.3rem;
-}
-#fourth .skills .left h3,#fourth .skills .right h3{
-    text-decoration: underline;
-    font-family: cursive;
-    color:#0988a8;
-}
-#fifth .about{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-}
-#contact .contactme{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 
-
-
+#fourth .skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#fourth .skills .left ul {
+  list-style: none;
+  font-size: 1.5rem;
+}
+#fourth .skills .right ul {
+  font-size: 1.3rem;
+}
+#fourth .skills .left h3,
+#fourth .skills .right h3 {
+  text-decoration: underline;
+  font-family: cursive;
+  color: #0988a8;
+}
+#fifth .about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+#contact .contactme {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
 @media screen and (max-width: 1024px) {
-    #first .first{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-    #first .first .right img{
-        height: 300px;
-        width: 300px;
-    }
-    #second .education{
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-        align-items: center;
-        font-size:0.5rem;
-    }
-    #second .education .btech h4 h5{
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-        align-items: center;
-    }
-    .education > div {
-        width: 100%; /* Take up full width on smaller screens */
-      }
-      #third .projects{
-        padding-left: 50;
-      }
-      #third .projects .card .card-text{
-        
-        height: 80vh;
-      }
-      #fourth .skills{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-      #fourth .skills .right{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding-left:50px;
-      }
-      #fifth .about{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding-left:50px;
-      }
-      #contact .contactme{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
+  #first .first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
   }
-  
+  #first .first .right img {
+    height: 300px;
+    width: 300px;
+  }
+  #second .education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem;
+  }
+  #second .education .btech h4 h5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .education > div {
+    width: 100%; /* Take up full width on smaller screens */
+  }
+  #third .projects {
+    padding-left: 50;
+  }
+  #third .projects .card .card-text {
+    /* height: 80vh; */
+  }
+  #fourth .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #fourth .skills .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+  }
+  #fifth .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+  }
+  #contact .contactme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
